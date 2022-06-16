@@ -1,20 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
+/**
+ * main - This is main
+ *
+ * Return:returns 0
+ */
+int main(void)
+{
+	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 
-/*
- * main- Entry point
- * Return: Always 0(Success)
- * */
+	int n;
 
-
-int main(void){
-	char i = 'a';
-	for(i; i <= 'z'; i++)
+	for (n = 0; n < 26; n++)
 	{
-		putchar(i);
-	
+		putchar(alpha[n]);
 	}
 	putchar('\n');
-
-	return(0);
+	return (0);
 }

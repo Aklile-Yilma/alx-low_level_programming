@@ -1,17 +1,11 @@
-
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main -       Use 'puts' to output a string to stdout
+ * main - Entry point
  *
- * Description: prints ' "Programming is like building a multilingual puzzle '
- *              to stdout
- *
- * Return:      Returns '0' if output string to stdout with no issue
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
-
 }

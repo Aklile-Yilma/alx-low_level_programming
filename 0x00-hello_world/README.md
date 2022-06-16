@@ -1,1 +1,1 @@
-Intro exercises on c commands
+Hello worlworld in C

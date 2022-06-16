@@ -1,10 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main- Use 'prinf' to output a string to stdout
+ * main - Entry point
  *
- * Return: Returns 0 if output string to stdout with no issue
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
